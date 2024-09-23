@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.primary-lite{
+  background: rgba(188, 188, 188, 0.489);
+}
+.primary{
+  background: white;
+}
+.secondary{
+  color: black;
+}
+.bg-secondary{
+  background-color: black;
+}
+
+.button{
+  background-color: Black;
+  color: #fff;
+}
+
+.button:hover{
+  background-color: white;
+  color: #000;
+}
+
+.nav-menu:hover{
+  background: #000;
+  color: white;
+  border-radius: 10px;
+}
+
+@media all and (max-width: 690px) {
+    ul.menu{
+      display: none;
+    }
+}
